@@ -97,9 +97,9 @@ function calc(){
             }
           >
 
-            <div className="textout max-w-xs">{t.title}</div>
+            <div className="textout">{t.title}</div>
             <div className="textout">{t.description + "$"}</div>
-            <div className="textout padwin">{t.winning + "$"}</div>
+            <div className="textout">{t.winning + "$"}</div>
           </div>
           <div className="pl-80 grid grid-cols-3 gap-80 text-[#edeef0] text-xl font-bold box2">
             <div className="">{t.title}</div>
